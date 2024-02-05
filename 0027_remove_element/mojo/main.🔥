@@ -3,7 +3,6 @@ from python import Python
 from time import now
 
 
-
 fn remove_element(nums: PythonObject, val:Int)  raises -> Int: 
     var currentIndex: Int = 0
     let length = nums.__len__()
