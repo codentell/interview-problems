@@ -17,8 +17,6 @@ fn contains_duplicate_sorting(blocks: PythonObject) raises -> Bool:
     return False
 
 
-
-
 fn contains_duplicate_dictionary(blocks: PythonObject) raises -> Bool:
         
     let dictionary = Python.dict()
